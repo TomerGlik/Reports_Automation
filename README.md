@@ -14,9 +14,8 @@ Writes simple TXT logs (per-IP, per-run, and a capped debug log).
 - 🔎 Filename match is tolerant (case/extra-spaces) and falls back to **header-based** detection
 - ✅ Validates IPv4 addresses
 - 🚫 Excludes users:
-  - starting with `dmz-hct\` (any case; any number of backslashes)
-  - starting with `dmz\` (any case; any number of backslashes)
-  - matching `first.last` (ASCII letters only)
+  - starting with `domain variations\` (any case; any number of backslashes)
+  - matching `user format` (ASCII letters only)
 - 🔄 Skips duplicates and excluded IPs
 - 📄 Outputs:
   - `ip.txt` — one IP per line
