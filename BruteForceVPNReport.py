@@ -8,7 +8,7 @@ from pathlib import Path
 # ---- Constants ----
 REPORTS_ROOT = Path(r"C:\your\reports\path")
 SECOND_LEVEL_DIR = ""
-TARGET_CSV_BASENAME = "RSA-SSL VPN Generic Users Brute Force attempt"  # name without extension
+TARGET_CSV_BASENAME = "Report_Name"  # name without extension
 REQUIRED_COLS = ("ip.dst", "user.dst")
 
 FEEDER_DIR = Path(r"C:\your\feeder\path")
